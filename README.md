@@ -32,7 +32,8 @@ python db_init.py
 HF_TOKEN=<Your HuggingFace API Key>
 HF_MODEL=meta-llama/Llama-3.1-8B-Instruct:novita
 ```
-6.     اجرای سرور:
+ 
+6. اجرای سرور:
 ```bash
 uvicorn main:app --reload
 
